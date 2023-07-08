@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Raleway:wght@300&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+
+.main{
+    margin: 0;
+    padding: 0;
+}
+.marquee{
+    color: white;
+    font-family: apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 2px;
+    direction:left;
+}
+
+.floating{
+    background-color: rgb(14, 48, 81);
+    width: 100%;
+    height: 27px;
+}
+
+.header{
+    background-color: rgb(50, 50, 49);
+    height: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+
+
+    
+}
+.left{
+    display: flex;
+    justify-content: left;
+    padding: 1px;
+    width: 30%;
+    margin-left: 15px;
+}
+
+.one img{
+    width: 100px;
+    height: 54px;
+    margin: 0;
+    margin-left: 58px;
+}
+.two img{
+    width: 180%;
+    margin-left: 17px;
+    margin-top: 1px;
+}
+.three img{
+    width: 25%;
+    margin-left: 67px;
+    margin-top: 12px;
+}
+.four img{
+    width: 1070%;
+    margin-left: -100px;
+    margin-top: 12px;
+}
+.right{
+   float: right;
+   display: flex; 
+   flex-wrap: wr;
+   justify-content: end;
+   width: 30%;
+   margin-left: 450px;
+   margin-top: 17px;
+}
+.right img{
+    width: 1000%;
+    height: 53px;
+    margin-left: 8px;
+    padding: 0;
+    margin-top: -15px;
+    
+}
+
+/* .left a:hover{
+    background-color: black;
+} */
+
+/* .left img:hover{
+    background-color: aquamarine;
+    background-size: 90px;
+    padding: 10px 20px;
+} */
+.store a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.00938em;
+    padding-top: 10px;
+    margin-right: 10px;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+.store span{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-left: 9px;
+    font-size: 13px;
+}
+.contact span{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-left: 9px;
+    font-size: 13px;
+}
+.login span{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-left: 9px;
+    font-size: 13px;
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.00938em;
+    padding-top: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    letter-spacing: 2px;
+    font-size: 15px;
+   
+}
+.login a{
+    text-decoration: none;
+    color: white;
+    font-family: Cabin;
+    letter-spacing: 0.00938em;
+    padding: 10px;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+.fav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    
+    letter-spacing: 0.00938em;
+    padding: 10px;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+.cart a{
+    text-decoration: none;
+    color: white;
+    
+    letter-spacing: 0.00938em;
+    padding: 10px;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+span:hover{
+    color: yellow;
+}
+.vl{
+    border-left: 1px solid rgb(114, 114, 114);
+    height: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.sec-head{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(255, 255, 255);
+}
+.sec-head{
+    display: flex;
+}
+.sec-left{
+    width: 22%;
+}
+.allen-logo img{
+    width: 55%;
+    margin-top: 13px;
+    margin-left: 60px;
+}
+.sec-center{
+    display: flex;
+    gap: 17px;
+    margin-top: 36px;
+}
+.sec-center a{
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: black;
+    
+}
+.sec-center a:hover{
+    font-weight: 900;
+    
+    border-bottom: 2px solid red;
+}
+.sec-center span{
+    color: rgb(176, 5, 5);
+}
+.flex{
+    width: 100%;
+}
+.sec-right{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 35px;
+}
+#search-icon{
+    margin-left: 30px;
+}
+.sec-right input{
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 4px 27px;
+}
+.sec-right a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 40px;
+    color: rgb(4, 43, 77);
+    border: 1px solid rgb(255, 202, 12);
+    background-color: rgb(255, 202, 12);
+    border-radius: 30px;
+    padding: 10px 45px;
+}
+.diff-wears{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    padding-top: 60px;
+    
+}
+.diff-wears img{
+    margin-left: 30PX;
+}
+.names{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1px;
+    padding-top: 20px;
+}
+.names span{
+    font-family:  Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: rgb(4, 43, 77);
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.saless{
+    margin-left: 110px;
+    font-family:  Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.man{
+    margin-left: 190px;
+}
+.woman{
+    margin-left: 176px;
+}
+.boysss{
+    margin-left: 169px;
+}
+.girlsss{
+    margin-left: 178px;
+}
+.neww{
+    margin-left: 135px;
+}
