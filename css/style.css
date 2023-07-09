@@ -90,6 +90,10 @@
     background-size: 90px;
     padding: 10px 20px;
 } */
+.sec-head{
+    position: sticky;
+    top: 0;
+}
 .store a{
     text-decoration: none;
     color: white;
