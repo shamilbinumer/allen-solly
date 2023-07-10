@@ -85,22 +85,34 @@ font-family: 'Roboto Mono', monospace; */
     margin-top: -15px;
     
 }
+/* .imaages:hover{
+    background-color: black;
+    
+} */
 
  /* .left a:hover{
     background-color: black;
     width: 20%;
     height: 30px;
-}  */
+} 
 
  .left img:hover{
     background-color: rgb(0, 0, 0);
     background-size: 90px;
     
    
-} 
+}  */
 .sec-head{
     position: sticky;
     top: 0;
+}
+#search-icon{
+    margin-left: 40px;
+    display: inline;
+}
+.search-bar input{
+    color: black;
+    margin-right: 20px;
 }
 .store a{
     text-decoration: none;
@@ -225,17 +237,20 @@ span:hover{
     padding: 35px;
 }
 #search-icon{
-    margin-left: 30px;
+    margin-left: 5px;
 }
 .sec-right input{
     border: none;
+    /* border-bottom: 2px solid black; */
+    /* padding: 4px 27px; */
+}
+.search-bar{
     border-bottom: 2px solid black;
-    padding: 4px 27px;
 }
 .sec-right a{
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    margin-left: 40px;
+    margin-left: 80px;
     color: rgb(4, 43, 77);
     border: 1px solid rgb(255, 202, 12);
     background-color: rgb(255, 202, 12);
@@ -243,15 +258,20 @@ span:hover{
     padding: 10px 45px;
 }
 .banner{
-    background-image: url("../images/banner.jpg");
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/banner.jpg");
     background-size: cover;
     padding-top:10px;
     width: 100%;
-    height: 600px;
+    height: 700px;
+}
+.logoos img{
+    width: 6%;
+    margin-left: 1410px;
+    margin-bottom: 0 !important;
 }
 .sale-banner{
     margin-left: 950px;
-    margin-top: 150px !important;
+    margin-top: 0px !important;
   
     width: 29%;
     
@@ -306,9 +326,9 @@ span:hover{
 }
 .shop-btn a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
     border: 2px solid white;
-    background-color: white;
+    background-color: transparent;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 16px 60px;
     letter-spacing: 3px;
@@ -316,8 +336,8 @@ span:hover{
     margin-top: 20px;
 }
 .shop-btn a:hover{
-    background-color: transparent;
-    color: white;
+    background-color: white;
+    color: rgb(0, 0, 0);
 }
 .diff-wears{
     display: flex;
@@ -368,7 +388,7 @@ span:hover{
 }
 .app-download{
     background-color: rgb(249, 231, 159);
-    height: 190px;
+    height: 250px;
     width: 100%;
 }
 .available h2{
@@ -376,14 +396,74 @@ span:hover{
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
     font-size: 30px;
 }
+.app-download{
+    display: flex;
+}
 .app-download p{
     font-family:  Helvetica Neue,Helvetica,Arial,sans-serif;
     letter-spacing: 1px;
     font-size: 15px;
+    color: #505051;
+}
+.usecode{
+    display: flex;
+}
+.usecode p{
+    font-size: 14px;
+    color: #505051;
+    
+}
+.code{
+    width: 120px;
+    
+}
+.code p{
+    border: 2px solid black;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    letter-spacing: 2px;
+    border-style: dashed;
+    padding: 5px 12px;
+    margin-top: 0.5px;
+    font-weight: 700;
+    margin-left: 10px;
+    background-color: rgb(255, 225, 0);
+    border-radius: 3px;
+}
+.code, .apple, .playstore{
+    margin-left: 10px;
 }
 .available h2{
     padding-top: 31px;
 }
 .available{
     margin-left: 124px;
+}
+.qr img{
+    width: 38%;
+    margin-top: 60px;
+    margin-left: 90px;
+}
+.qr p{
+    font-size: 9px;
+    margin-left: 80px;
+}
+.logo{
+    width: 20%;
+}
+.logo img{
+    width: 100%;
+    margin-top: 22px;
+    margin-left: 80px;
+}
+.fresh-arraivals{
+    text-align: center;
+}
+.fresh-arraivals h1{
+    text-align: center;
+    color: #0e3051;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    letter-spacing: 2px;
+}
+.fresh-arraivals img{
+    margin-left: 15px;
 }
