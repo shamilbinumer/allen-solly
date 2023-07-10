@@ -50,6 +50,7 @@
 }
 .two img{
     width: 180%;
+    
     margin-left: 17px;
     margin-top: 1px;
 }
@@ -81,15 +82,18 @@
     
 }
 
-/* .left a:hover{
+ /* .left a:hover{
     background-color: black;
-} */
+    width: 20%;
+    height: 30px;
+}  */
 
-/* .left img:hover{
-    background-color: aquamarine;
+ .left img:hover{
+    background-color: rgb(0, 0, 0);
     background-size: 90px;
-    padding: 10px 20px;
-} */
+    
+   
+} 
 .sec-head{
     position: sticky;
     top: 0;
@@ -275,4 +279,25 @@ span:hover{
 }
 .neww{
     margin-left: 135px;
+}
+.app-download{
+    background-color: rgb(249, 231, 159);
+    height: 190px;
+    width: 100%;
+}
+.available h2{
+    color: #0e3051;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    font-size: 30px;
+}
+.app-download p{
+    font-family:  Helvetica Neue,Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+.available h2{
+    padding-top: 31px;
+}
+.available{
+    margin-left: 124px;
 }
